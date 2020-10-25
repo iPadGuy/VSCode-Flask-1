@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport=" content="with=device-width, initial-scale=1" />
+    <title>Hello, Flask!</title>
+    <style type="text/css">
+    </style>
+</head>
+
+<body>
+    <h1>Hello, Flask</h1>
+    <h2>Links</h2>
+    <ul>
+        <li><a href="{{ url_for('get_data')}}">/api/data</a></li>
+        <li><a href="{{ url_for('hello_there')}}">/hello</a></li>
+    </ul>
+</body>
+</html>
