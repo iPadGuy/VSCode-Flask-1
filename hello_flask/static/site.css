@@ -1,12 +1,54 @@
 body {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:16px;
+    background-color: #eff7ed;
+    border-width: 0 1px;
+    border-style: dashed;
+    border-color: #dcdfdb;
     color:#000;
-    text-align:center;
+    /* color:  #8800ff; */
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:125%;
+    line-height: 1.1;
     margin:20px 0 0 0;
+    padding: 20px;
+    text-shadow: 0 0 1px;  
 }
+h1 { font-size: 225%; }
+h2 { font-size: 175%; }
+h3 { font-size: 150%; }
+h4 { font-size: 125%; }
+h5 { font-size: 110%; }
+h6 { font-size: 90%; }
+h7 { font-size: 75%; }
 
 .message {
     font-weight: 600;
     color: blue;
+}
+
+.navbar {
+    background-color: lightslategray;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding: 8px 5px 8px 5px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-brand {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.navbar-item {
+    font-variant: small-caps;
+    margin-left: 30px;
+}
+
+.body-content {
+    padding: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

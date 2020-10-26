@@ -1,0 +1,55 @@
+app
+├── auth/
+│   ├── email.py
+│   ├── forms.py
+│   ├── __init__.py
+│   └── routes.py
+├── errors/
+│   ├── handlers.py
+│   └── __init__.py
+├── main/
+│   ├── forms.py
+│   ├── __init__.py
+│   └── routes.py
+├── static/
+│   └── loading.gif
+├── templates/
+│   ├── auth/
+│   │   ├── login.html
+│   │   ├── register.html
+│   │   ├── reset_password.html
+│   │   └── reset_password_request.html
+│   ├── email/
+│   │   ├── reset_password.html
+│   │   └── reset_password.txt
+│   ├── errors/
+│   │   ├── 404.html
+│   │   └── 500.html
+│   ├── base.html
+│   ├── base.html-env
+│   ├── base.html-version
+│   ├── edit_profile.html
+│   ├── environment.html
+│   ├── index.html
+│   ├── _post.html
+│   ├── test_account_info.html
+│   ├── top_secret.html
+│   └── user.html
+├── translations/
+│   ├── es/
+│   │   └── LC_MESSAGES/
+│   │       ├── messages.mo
+│   │       └── messages.po
+│   └── fr/
+│       └── LC_MESSAGES/
+│           ├── messages.mo
+│           └── messages.po
+├── cli.py
+├── email.py
+├── __init__.py
+├── models.py
+├── routes_old.py
+├── search.py
+└── translate.py
+
+13 directories, 39 files

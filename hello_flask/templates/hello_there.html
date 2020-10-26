@@ -9,15 +9,18 @@
     {%if name %}
         <span class="message">Hello there, {{ name }}!</span> &nbsp; It's {{ date.strftime("%A, %d %B, %Y at %X") }}.
     {% else %}
-        <span class="message">What's your name? Provide it after /hello/ in the URL.</span>
+        <span class="message">What's your name? &nbsp; 
+            Provide it after <code>/hello/</code> in the URL.</span>
     {% endif %}
-    <div align="center">
+    <div align="left">
         <hr style="color: blue; background-color: blue; 
-            height: 1.5px; width: 67%; 
-            margin-top: 25px; margin-bottom: 25px;" />
+            height: 0.5px; width: 67%; margin-left: 0;
+            margin: 25px 0 25px 0;"
+            /* margin-top: 25px; margin-bottom: 25px;" */ />
     </div>
     <!-- {{ date.strftime("%A, %d %B, %Y at %X") }} -->
-    <p>© {{ date.strftime("%Y") }}<br />
-        {{ date.strftime("%A, %d %B, %Y at %X") }}</p>
+    <p><sub>© {{ date.strftime("%Y") }}</sub><br />
+        <sub>{{ date.strftime("%A, %B %d, %Y at %X  %z %Z") }}</sub>
+    </p>
 </body>
 </html>
