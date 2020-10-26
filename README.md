@@ -17,3 +17,6 @@
 - I finished the main part of the tutorial, and will finish the extra parts for future development (this is something that wasn't in the Django tutorial).
 
 
+##### Monday, October 26, 2020
+- TODO: Finish the "Refactor" and Docker parts of the tutorial
+
