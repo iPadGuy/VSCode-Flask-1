@@ -19,4 +19,7 @@
 
 ##### Monday, October 26, 2020
 - TODO: Finish the "Refactor" and Docker parts of the tutorial
-
+- Already, I am wondering which of the following is the better way to go:
+    1. Entry point at the top (ie. `./microblog.py`)
+    2. Entry point in the app folder (ie. `app/webapp.py`)
+    
